@@ -3,7 +3,7 @@
 
 
 struct batsman {
-    char name[25];
+    char name[26];
     int runs, balls, ones, twos, threes, fours, sixes;
     float str; 
 } pl1[100];
@@ -21,7 +21,7 @@ int main() {
     int total_runs = 0, total_wickets = 0, total_balls = 0;
     char search_name[25];
 
-    printf("\n================== Cricket Score Sheet ==================\n");
+    printf("\n================== Cricket Score Sheet  ==================\n");
 
    
     printf("\nEnter the number of batsmen: ");
