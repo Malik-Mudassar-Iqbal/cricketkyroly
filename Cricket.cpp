@@ -24,7 +24,7 @@ int main() {
     printf("\n================== Cricket Score Sheet  ==================\n");
 
    
-    printf("\nEnter the number of batsmen: ");
+    printf("\nEnter the numbers of batsmen: ");
     scanf("%d", &m);
 
     for (i = 0; i < m; i++) {
