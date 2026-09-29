@@ -5,7 +5,11 @@
 struct batsman {
     char name[26];
     int runs, balls, ones, twos, threes, fours, sixes;
+<<<<<<< HEAD
     int str; 
+=======
+    double str; 
+>>>>>>> feature
 } pl1[200];
 
 
