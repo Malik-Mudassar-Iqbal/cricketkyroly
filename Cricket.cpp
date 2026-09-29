@@ -6,14 +6,14 @@ struct batsman {
     char name[26];
     int runs, balls, ones, twos, threes, fours, sixes;
     float str; 
-} pl1[100];
+} pl1[200];
 
 
 struct bowler {
     char name[25];
     int runsgiven, wikettaken, over;
     float econmy; 
-} pl2[100];
+} pl2[200];
 
 int main() {
     int plno, choice;
